@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28A13B4813A2830E00FC0B60 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28A13B4713A2830E00FC0B60 /* CoreAudio.framework */; };
 		28A3857213A28153000DB14A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28A3857113A28153000DB14A /* Foundation.framework */; };
 		28A3857513A28153000DB14A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A3857413A28153000DB14A /* main.m */; };
 /* End PBXBuildFile section */
@@ -24,10 +25,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		28A13B4713A2830E00FC0B60 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
 		28A3856D13A28153000DB14A /* headphone-detector */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "headphone-detector"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28A3857113A28153000DB14A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		28A3857413A28153000DB14A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		28A3857713A28153000DB14A /* headphone-detector-Prefix.pch */ = {isa = PBXFileReference; path = "headphone-detector-Prefix.pch"; sourceTree = "<group>"; };
+		28A3857713A28153000DB14A /* headphone-detector-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "headphone-detector-Prefix.pch"; sourceTree = "<group>"; };
 		28A3857813A28153000DB14A /* headphone_detector.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = headphone_detector.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -36,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28A13B4813A2830E00FC0B60 /* CoreAudio.framework in Frameworks */,
 				28A3857213A28153000DB14A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -46,6 +49,7 @@
 		28A3856213A28153000DB14A = {
 			isa = PBXGroup;
 			children = (
+				28A13B4713A2830E00FC0B60 /* CoreAudio.framework */,
 				28A3857313A28153000DB14A /* headphone-detector */,
 				28A3857013A28153000DB14A /* Frameworks */,
 				28A3856E13A28153000DB14A /* Products */,
@@ -220,6 +224,7 @@
 				28A3857D13A28153000DB14A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
