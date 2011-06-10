@@ -1,0 +1,15 @@
+Headphone Detector for OSX
+
+Does what it says on the tin really. Check 'Downloads' for the binary.
+
+Usage:
+
+./headphone-detector
+
+Output:
+
+Internal Speakers
+
+or
+
+Headphones
