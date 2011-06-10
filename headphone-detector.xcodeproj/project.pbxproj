@@ -1,0 +1,227 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28A3857213A28153000DB14A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28A3857113A28153000DB14A /* Foundation.framework */; };
+		28A3857513A28153000DB14A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A3857413A28153000DB14A /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		28A3856B13A28153000DB14A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		28A3856D13A28153000DB14A /* headphone-detector */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "headphone-detector"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28A3857113A28153000DB14A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		28A3857413A28153000DB14A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		28A3857713A28153000DB14A /* headphone-detector-Prefix.pch */ = {isa = PBXFileReference; path = "headphone-detector-Prefix.pch"; sourceTree = "<group>"; };
+		28A3857813A28153000DB14A /* headphone_detector.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = headphone_detector.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28A3856A13A28153000DB14A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28A3857213A28153000DB14A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28A3856213A28153000DB14A = {
+			isa = PBXGroup;
+			children = (
+				28A3857313A28153000DB14A /* headphone-detector */,
+				28A3857013A28153000DB14A /* Frameworks */,
+				28A3856E13A28153000DB14A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28A3856E13A28153000DB14A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28A3856D13A28153000DB14A /* headphone-detector */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28A3857013A28153000DB14A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28A3857113A28153000DB14A /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		28A3857313A28153000DB14A /* headphone-detector */ = {
+			isa = PBXGroup;
+			children = (
+				28A3857413A28153000DB14A /* main.m */,
+				28A3857813A28153000DB14A /* headphone_detector.1 */,
+				28A3857613A28153000DB14A /* Supporting Files */,
+			);
+			path = "headphone-detector";
+			sourceTree = "<group>";
+		};
+		28A3857613A28153000DB14A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				28A3857713A28153000DB14A /* headphone-detector-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28A3856C13A28153000DB14A /* headphone-detector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28A3857B13A28153000DB14A /* Build configuration list for PBXNativeTarget "headphone-detector" */;
+			buildPhases = (
+				28A3856913A28153000DB14A /* Sources */,
+				28A3856A13A28153000DB14A /* Frameworks */,
+				28A3856B13A28153000DB14A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "headphone-detector";
+			productName = "headphone-detector";
+			productReference = 28A3856D13A28153000DB14A /* headphone-detector */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28A3856413A28153000DB14A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Snapshot Media";
+			};
+			buildConfigurationList = 28A3856713A28153000DB14A /* Build configuration list for PBXProject "headphone-detector" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 28A3856213A28153000DB14A;
+			productRefGroup = 28A3856E13A28153000DB14A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28A3856C13A28153000DB14A /* headphone-detector */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28A3856913A28153000DB14A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28A3857513A28153000DB14A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		28A3857913A28153000DB14A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		28A3857A13A28153000DB14A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		28A3857C13A28153000DB14A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "headphone-detector/headphone-detector-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		28A3857D13A28153000DB14A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "headphone-detector/headphone-detector-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28A3856713A28153000DB14A /* Build configuration list for PBXProject "headphone-detector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28A3857913A28153000DB14A /* Debug */,
+				28A3857A13A28153000DB14A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28A3857B13A28153000DB14A /* Build configuration list for PBXNativeTarget "headphone-detector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28A3857C13A28153000DB14A /* Debug */,
+				28A3857D13A28153000DB14A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28A3856413A28153000DB14A /* Project object */;
+}
