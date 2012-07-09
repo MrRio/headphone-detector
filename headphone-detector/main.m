@@ -30,8 +30,10 @@ int main (int argc, const char * argv[])
     //'hdpn' => headphones
     if(dataSource == 'ispk') {
         printf("Internal Speakers");
-    } else {
+    } if(dataSource == 'hdpn') {
         printf("Headphones");
+    } else if () {
+        printf("Unknown");
     }
     
     [pool drain];
